@@ -1,0 +1,333 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+
+#intestazione {
+  display:flex;
+  width:100%;
+  height:100%;
+justify-content: space-around;
+background-color: rgb(0, 204, 255);
+}
+
+header #logo{
+  max-width: 200px;
+  height: auto;
+  margin-left:20px;
+  margin-bottom:15px;
+
+}
+
+#barra{
+margin-top: 20px;
+margin-left:10px;
+margin-right: 10px;
+}
+
+#barra ul{
+display:flex;
+justify-content:space-around;
+list-style-type: none;
+margin: 0;
+padding: 0;
+
+}
+
+#barra li {
+  display:inline;
+  margin:0;
+  padding:0 50px;
+color:white;
+font-family: 'Roboto Mono', monospace;
+font-size:25px;
+}
+#barra a{
+  text-decoration: none;
+}
+#card{
+  max-width:350px;
+  max-height: 400px;
+  margin-top: 40px  ;
+margin-left: 15px;
+}
+#card h4{
+  margin-top:15px;
+  margin-left: 20px;
+  font-family: 'Roboto Mono', monospace;
+  font-size:25px;
+}
+#foto{
+  display:block;
+  margin:auto;
+  width: 100%;
+  height: 75%;
+  border:4px solid #003366;
+}
+#presentazione{
+  display:flex;
+  justify-content:center;
+}
+#Chi-sono{
+  width:100%;
+  height:100%;
+  border:4px solid #003366;
+  margin:30px 30px;
+  padding: 10px 15px;
+}
+#Chi-sono h1{
+  font-family: 'Courier Prime', monospace;
+  font-size:30px;
+}
+
+#Chi-sono h3{
+  font-family: 'Roboto', sans-serif;
+  font-size:20px;
+}
+#Chi-sono p{
+  font-family: 'Roboto', sans-serif;
+  font-size:17px;
+}
+
+#progetti{
+margin-top: 20px;
+margin-bottom: 20px;
+max-width:100%;
+}
+.titolo-sezione{
+  width:100%;
+  background-color: rgb(0, 204, 255);
+  text-align: center;
+  }
+  #img-scor{
+    border: 2px solid black;
+    background-color:#b3cccc;
+    width: 800px;
+    height:700px;
+  }
+  .img{
+  width:600px;
+  height:400px;
+  border: 2px solid black;
+  margin:auto;
+  overflow:auto;
+}
+.img img{
+  width: 80%;
+  display: block;
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+  .mySlides{
+    position: relative;
+    top:80px;
+
+  }
+
+  .didascalia{
+    margin-top:30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px
+  }
+#html-div{
+  width: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 30px;
+}
+
+#html-div h3{
+  font-family: 'Roboto', sans-serif;
+  font-size:30px;
+  text-align: center;
+}
+#html-div p{
+  font-family: 'Roboto', sans-serif;
+  font-size:25px;
+}
+
+#html-div ul {
+  list-style-type: none;
+}
+.star{
+color: #ff0000;
+}
+#inizio-pagina{
+  display: block;
+  width: 100px;
+  height: 60px;
+  margin:20px;
+  border: 4px solid #003366;
+}
+
+ #inizio-pagina button:hover{
+  background-color: red;
+}
+#ritorno-logo{
+  width: 100%;
+  height: 100%;
+  margin:auto;
+  cursor: pointer;
+  color:black;
+  background-color: #ccccb3;
+}
+
+#contatti{
+  max-width: 100%;
+  height: auto;
+  background-color:rgb(0, 204, 255);
+  display:flex;
+  justify-content:space-around;
+}
+.font-icone{
+  margin-top:20px;
+  margin-bottom: 20px;
+  color:white;
+  cursor: pointer;
+  }
+  .font-icone :hover{
+    color:black;
+  }
+
+
+
+
+@media only screen and (max-width:500px){
+
+body{
+  display:block;
+}
+
+
+  #intestazione {
+  display: block;
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#barra{
+  text-align: center;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+#barra ul{
+display:flex;
+justify-content:space-around;
+margin-left:10px;
+}
+
+
+
+#barra li {
+  display:inline;
+  margin:auto;
+  padding:0 10px;
+color:white;
+font-family: 'Roboto Mono', monospace;
+font-size:15px;
+}
+
+#presentazione{
+  display:block;
+
+}
+#card{
+    margin: 20px auto;
+}
+#foto{
+  margin: auto;
+  width: 70%;
+  height:50%;
+}
+#card h4{
+  margin:auto;
+  margin-top:5px;
+  margin-left: 20px;
+  font-size:18px;
+}
+#Chi-sono{
+  margin:20px auto;
+}
+
+#Chi-sono h1{
+font-size:25px;
+}
+
+#Chi-sono h3{
+font-size:19px;
+}
+#Chi-sono p{
+  font-size:17px;
+}
+
+#competenze{
+  margin:20px 20px;
+}
+#img-scor{
+width: 300px;
+  max-height:500px;
+}
+.img{
+width:250px;
+height:200px;
+
+}
+
+.mySlides{
+  position: relative;
+  top:30px;
+}
+
+.didascalia{
+  margin-top:35px;
+  font-size: 15px
+}
+
+
+
+}
+@media only screen and (min-width:501px) and (max-width:800px) {
+  body{
+    display: block;
+  }
+  #intestazione {
+  display: block;
+  width:100%;
+
+}
+
+#barra li {
+  display:inline-block;
+  padding:10px 20px;
+font-size:18px;
+}
+#card{
+  width:100%;
+  display:inline-block;
+    margin-top: 30px;
+    margin-left: 18px;
+}
+#foto{
+
+  margin-top: 20px;
+  width: 100%;
+  height:70%;
+}
+#card h4{
+
+  margin-top:25px;
+  margin-left: 20px;
+  font-size:20px;
+}
+
+}
