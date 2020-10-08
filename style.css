@@ -176,6 +176,8 @@ color: #ff0000;
   cursor: pointer;
   color:black;
   background-color: #ccccb3;
+  -webkit-transition-duration: 0.7s; /* Safari */
+  transition-duration:0.7s;
 }
 
 #contatti{
